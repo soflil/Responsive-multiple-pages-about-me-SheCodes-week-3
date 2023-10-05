@@ -1,0 +1,115 @@
+:root {
+  --paragraph-background-color: #eae7f9;
+  --paragraph-border-color: #cec6f9;
+  --link-original-color: #4c46cb;
+  --link-visited-color: #362fbb;
+  --link-hover-color: #7671d4;
+  --link-background-color-dark: #847ef5;
+  --link-background-color-light: #fff;
+  --link-text-color-light: #fff;
+  --link-text-color-dark: #847ef5;
+  --link-border-color: #6863c3;
+  --link-animation: all 200ms ease-in-out;
+}
+
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 80px;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 35px;
+  margin-top: 100px;
+  opacity: 0.7;
+}
+
+h3 {
+  font-size: 25px;
+  margin-top: 25px;
+}
+
+p {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+img {
+  border: 8px solid #fff;
+}
+
+.center {
+  text-align: center;
+}
+
+.link {
+  color: var(--link-original-color);
+}
+
+.link:visited {
+  color: var(--link-visited-color);
+}
+
+.link:hover {
+  color: var(--link-hover-color);
+}
+
+.navbar-customize {
+  background-color: var(--link-background-color-dark);
+  border: 1px solid var(--link-border-color);
+}
+
+.text-color {
+  color: #fff;
+}
+
+#contact-me #contact-text {
+  font-size: 50px;
+}
+
+#contact-me #contact-link {
+  font-size: 20px;
+}
+
+.navbar-customize {
+  background-color: var(--link-background-color-dark);
+  border: 1px solid var(--link-border-color);
+}
+
+.heading-app {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.butten {
+  background-color: var(--link-background-color-dark);
+  border: 1px dotted var(--link-border-color);
+  color: var(--link-text-color-light);
+}
+
+.about-button {
+  background-color: var(--link-background-color-light);
+  border: 1px dotted var(--link-border-color);
+  color: var(--link-text-color-dark);
+}
+
+.butten:hover {
+  background-color: var(--link-background-color-light);
+  border: 1px dotted var(--link-border-color);
+  color: var(--link-text-color-dark);
+}
+
+.about-button:hover {
+  background-color: var(--link-background-color-dark);
+  border: 1px dotted var(--link-border-color);
+  color: var(--link-text-color-light);
+}
