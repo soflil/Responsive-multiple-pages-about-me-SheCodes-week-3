@@ -27,12 +27,6 @@ h1 {
   margin-top: 30px;
 }
 
-h2 {
-  font-size: 35px;
-  margin-top: 100px;
-  opacity: 0.7;
-}
-
 h3 {
   font-size: 25px;
   margin-top: 25px;
@@ -49,6 +43,22 @@ img {
 
 .center {
   text-align: center;
+}
+
+.about-me-headline {
+  margin-top: 90px;
+  font-size: 80px;
+}
+
+.about-description {
+  font-size: 35px;
+  margin-top: 40px;
+  opacity: 0.7;
+}
+
+.hello-heading {
+  font-size: 40px;
+  margin-top: 100px;
 }
 
 .link {
