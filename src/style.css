@@ -125,10 +125,6 @@ img {
 }
 
 @media (max-width: 576px) {
-  .center-button-small {
-    text-align: center;
-  }
-
   #contact-me #contact-text {
     font-size: 18px;
   }
@@ -156,5 +152,10 @@ img {
 
   p {
     font-size: 14px;
+  }
+
+  .project-buttons {
+    display: block;
+    text-align: center;
   }
 }
